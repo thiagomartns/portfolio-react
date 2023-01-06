@@ -1,6 +1,7 @@
 
 import { useState } from 'react';
-import './App.scss';
+import './app.scss'
+import Intro from './components/intro/Intro';
 import Menu from './components/menu/Menu';
 import Topbar from './components/topbar/Topbar';
 
@@ -12,6 +13,9 @@ function App() {
     <div className="App">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <div className="sections">
+        <Intro />
+      </div>
     </div>
   );
 }
