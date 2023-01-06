@@ -1,10 +1,15 @@
 
+import { useState } from 'react';
 import './App.scss';
+import Topbar from './components/topbar/Topbar';
 
 function App() {
+
+  const [menuOpen, setMenuOpen] = useState(false)
+
   return (
     <div className="App">
-      
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </div>
   );
 }
