@@ -30,7 +30,7 @@ const Intro = () => {
             Freelance <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#porfolio">
+        <a href="#portfolio">
           <img src="assets/down.png" alt="" />
         </a>
       </div>
