@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .topbar {
   background-color: #fff;
   color: #15023a;
@@ -30,6 +32,10 @@
         display: flex;
         align-items: center;
         margin-left: 30px;
+
+        @include mobile {
+          display: none;
+        }
 
         .icon {
           font-size: 18px;
