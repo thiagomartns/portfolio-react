@@ -4,6 +4,7 @@ import './app.scss'
 import Intro from './components/intro/Intro';
 import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
 import Works from './components/works/Works';
 
@@ -19,6 +20,7 @@ function App() {
         <Intro />
         <Portfolio />
         <Works />
+        <Testimonials />
       </div>
     </div>
   );
